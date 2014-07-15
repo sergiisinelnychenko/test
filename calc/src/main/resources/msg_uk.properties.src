@@ -1,0 +1,27 @@
+msg.chooseShape=Будь-ласка, оберіть, площу якої фігури розрахувати
+msg.calculatingFor=Розраховуємо площу фігури
+msg.enterValue=Введіть значення для: 
+msg.square.result=Результат розрахунку: площа дорівнює {0}
+msg.goToIndex=Повернутися до початкової сторінки
+msg.typeError=Будь-ласка, вводьте цифри!
+msg.calculatedNumber=Кількість розрахунків - 
+btn.submit=Надіслати
+
+msg.square.name=Квадрат
+msg.square.side=Сторона квадрату
+
+msg.circle.name=Коло
+msg.circle.radius=Радіус кола
+
+msg.ellipse.name=Еліпс
+msg.ellipse.side1=Перший радіус еліпсу
+msg.ellipse.side2=Другий радіус еліпсу
+
+msg.rectangle.name=Прямокутник
+msg.rectangle.side1=Перша сторона прямокутника
+msg.rectangle.side2=Друга сторона прямокутника
+
+msg.triangle.name=Трикутник
+msg.triangle.side1=Перша грань трикутника
+msg.triangle.side2=Друга грань трикутника
+msg.triangle.side3=Третя грань трикутника
