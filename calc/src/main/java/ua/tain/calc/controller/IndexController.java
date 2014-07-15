@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class IndexController {
 	
+	private static final String SHAPES_PROPERTIES = "shapes.properties";
 	public static Properties storage;
 	/**
 	 * Does almost nothing - just forwards to index page. Exist for possible
@@ -38,7 +39,7 @@ public class IndexController {
 		super();
 		storage = new Properties();
 		try {
-			storage.load(new FileInputStream("shapes.properties"));
+			storage.load(new FileInputStream(SHAPES_PROPERTIES));
 		} catch (FileNotFoundException e) {
 		} catch (IOException e) {
 		}
